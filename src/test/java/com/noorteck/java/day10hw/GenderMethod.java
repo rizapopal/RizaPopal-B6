@@ -17,16 +17,16 @@ public class GenderMethod {
 		
 		// (3) we go in method body
 		
-		if(gender == 'm' || gender == 'M') { // (4) it sees if the value of gender is 'm' or 'M'; i
+		if(gender == 'm' || gender == 'M') { // (4) it sees if the value of gender is 'm' or 'M'; if it is, it will print male, otherwise it will go to else if statement
 	
 			System.out.println("Male");
 			
-		} else if(gender == 'f' || gender == 'F') {
+		} else if(gender == 'f' || gender == 'F') { // (5) if the if statement condition was not met, it checks else if statement and if else if condition is met, then outputs female
 			
 			System.out.println("Female");
 			
 		}
 		
 		
-	}
+	} // (6) goes back to main method to execute next lines of code
 }
